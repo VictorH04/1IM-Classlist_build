@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1-IM Klasseliste | Klasseliste</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira:300,400,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<div class="topsection">
+
+    <h1 class="topsection-title">1IM-Klasseliste</h1>
+
+</div>
+
+<div class="settingsection">
+
+
+    <h1 class="settingsection-title">Filtrer elever</h1>
+
+<form class="settingsection-form">
+
+
+    <label class="settingsection-form_nameTitle" for="names">Navn:</label>
+
+     <input name="names" id="searchInput" class="settingsection-form_name">
+        
+
+
+
+    <label class="settingsection-form_classTitle" for="class">Velg klasse</label>
+
+    <select name="class" id="classSelect" class="settingsection-form_select">
+
+         <option value="first" id="optionNull" class="optionNull"></option>
+         <option value="all" id="optionAll" class="optionAll" selected>Se alle</option>
+         <option value="1IMA" id="optionA" class="optionA">A</option>
+         <option value="1IMB" id="optionB" class="optionB">B</option>
+        
+    </select>
+
+
+</form>
+</div>
+
+<div class="cardsection">
+    
+{%CONTENT%}
+
+</div>
+
+<script src="filters.js"></script>
+</body>
+</html>

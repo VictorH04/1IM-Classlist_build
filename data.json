@@ -1,0 +1,213 @@
+[
+    {
+        "id": 0,
+        "NAME": "Pavlos Douvlos",
+        "BIRTH": "2004-02-25",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 1,
+        "NAME": "Georg Flermoen",
+        "BIRTH": "2004-11-26",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 2,
+        "NAME": "Henrik Skarstad Hagen",
+        "BIRTH": "2004-01-22",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 3,
+        "NAME": "Bjørn Holmsand",
+        "BIRTH": "2004-03-06",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 4,
+        "NAME": "Caleb Emmanuel Holst",
+        "BIRTH": "2004-06-09",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 5,
+        "NAME": "Victor Nikolaev Hristov",
+        "BIRTH": "2004-03-26",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 6,
+        "NAME": "Joakim Isaksen",
+        "BIRTH": "2004-08-17",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 7,
+        "NAME": "Celine Sunniva Myklebust",
+        "BIRTH": "2004-09-23",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 8,
+        "NAME": "Jonathan Mickelson Myrvold",
+        "BIRTH": "2004-10-27",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 9,
+        "NAME": "Sjur Nordlien",
+        "BIRTH": "2004-05-09",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 10,
+        "NAME": "Peder Oppegård",
+        "BIRTH": "2004-01-14",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 11,
+        "NAME": "Eirik Sjøløkken",
+        "BIRTH": "2004-12-27",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 12,
+        "NAME": "Jesper Skjeflo",
+        "BIRTH": "2003-11-28",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 13,
+        "NAME": "Lars Inge Syverinsen",
+        "BIRTH": "2004-12-29",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 14,
+        "NAME": "Adrian Aas Torp",
+        "BIRTH": "2004-10-08",
+        "CLASS": "1IMA"
+    },
+
+    {
+        "id": 15,
+        "NAME": "Martha Baldishol",
+        "BIRTH": "2004-04-04",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 16,
+        "NAME": "Endre Møller Berg",
+        "BIRTH": "2004-11-10",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 17,
+        "NAME": "Adrian Bjørndahl",
+        "BIRTH": "2004-11-15",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 18,
+        "NAME": "Eivind Solum Eikefjord",
+        "BIRTH": "2004-10-25",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 19,
+        "NAME": "Marcus Flaterudhagen",
+        "BIRTH": "2004-12-04",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 20,
+        "NAME": "Mats Johannes Gunneng",
+        "BIRTH": "2004-01-06",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 21,
+        "NAME": "Amund Holmsand",
+        "BIRTH": "2004-03-06",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 22,
+        "NAME": "Edvard Høiby",
+        "BIRTH": "2004-04-04",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 23,
+        "NAME": "Henning Iversen",
+        "BIRTH": "2004-08-17",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 24,
+        "NAME": "Martin Kulvedrøsten Myhre",
+        "BIRTH": "2004-11-03",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 25,
+        "NAME": "Sondre Røste-Kise",
+        "BIRTH": "2004-06-13",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 26,
+        "NAME": "Jostein Stoltz Tajesveen",
+        "BIRTH": "2004-04-23",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 27,
+        "NAME": "Nora Helene Wagenius",
+        "BIRTH": "2004-03-18",
+        "CLASS": "1IMB"
+    },
+
+
+    {
+        "id": 28,
+        "NAME": "Joachim Opseth Wilhelmsen",
+        "BIRTH": "2003-10-26",
+        "CLASS": "1IMB"
+    },
+
+    {
+        "id": 29,
+        "NAME": "Hans Arve Åsen Østerhagen",
+        "BIRTH": "2004-12-02",
+        "CLASS": "1IMB"
+    }
+
+] 

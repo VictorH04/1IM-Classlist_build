@@ -5,8 +5,8 @@ const url = require('url');
 const path = require('path');
 
 let app = express();
-app.use(express.static(path.resolve('../classList/public/stylesheets')));
-app.use(express.static('public/javascripts'));
+app.use(express.static(path.resolve('../public/stylesheets')));
+app.use(express.static('../public/javascripts'));
 
 let server = http.createServer(app);
 
@@ -16,25 +16,25 @@ const replaceTemplate = require('../public/javascripts/modules/replaceTemplate')
 
 //////////////! Server
 // Get the templates (html-files)
-const tempHome = fs.readFileSync(`../classList/views/template-home.html`, 'utf-8');
-const tempClassList = fs.readFileSync(`../classList/views/template-classlist.html`, 'utf-8');
-const tempCard = fs.readFileSync(`../classList/views/template-card.html`, 'utf-8');
+const tempHome = fs.readFileSync(`../views/index.html`, 'utf-8');
+const tempClassList = fs.readFileSync(`../views/template-.html`, 'utf-8');
+const tempCard = fs.readFileSync(`../views/template-card.html`, 'utf-8');
 
 // Get the data from the data.json file
-const data = fs.readFileSync(path.resolve('data.json'));
+const data = fs.readFileSync(path.resolve('../data.json'));
 // convert(parse) the JSON data string to a object
 const dataObj = JSON.parse(data);
 
 app.get('/', (req, res) => {
-	res.sendFile(path.resolve('../classList/views/template-home.html'));
+	res.sendFile(path.resolve('../views/index.html'));
 });
 
 app.get('/hjem', (req, res) => {
-	res.sendFile(path.resolve('../classList/views/template-home.html'));
+	res.sendFile(path.resolve('../views/index.html'));
 });
 
 app.get('/klasseliste', (req, res) => {
-	res.sendFile(path.resolve('../classList/views/template-classlist.html'));
+	res.sendFile(path.resolve('../views/template-classlist.html'));
 
 	// console.log(req.url);
 	// console.log(url.parse(req.url, true));
@@ -53,7 +53,7 @@ app.get('/klasseliste', (req, res) => {
 });
 
 app.get('/api', (req, res) => {
-	res.sendFile(path.resolve('../classList/data.json'));
+	res.sendFile(path.resolve('../data.json'));
 });
 
 // app.get('/home', (req, res) => {
